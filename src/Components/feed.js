@@ -34,7 +34,7 @@ function Feed(props) {
       <div className="all__news">
         {data
           ? data.posts.sort(compare).map((Feed) => (
-              <FeedArticle data={Feed} key={Feed.id} />
+              <FeedArticle data={Feed} key={Feed.event_date} />
             ))
           : "Loading"}
       </div>

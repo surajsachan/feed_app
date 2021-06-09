@@ -36,12 +36,10 @@ body {
     text-overflow: ellipsis;
 }
 
-.other_data>span{
-  display: inline-flex;
+.other_data{
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-right: 2px;
-  position: relative;
 }
 
 .feed__image {
