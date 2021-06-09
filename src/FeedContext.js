@@ -23,7 +23,7 @@ export const FeedContextProvider = (props) => {
       .catch((error) => {
         console.log(error)
       });
-  }, []);
+  }, [apiKey]);
 
   return (
     <FeedContext.Provider value={{ data }}>
