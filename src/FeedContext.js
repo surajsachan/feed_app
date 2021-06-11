@@ -15,9 +15,6 @@ export const FeedContextProvider = (props) => {
 
           `http://www.mocky.io/v2/${apiKey}`
         
-        
-        
-        // `http://newsapi.org/v2/everything?q=rich&from=2020-07-19&sortBy=publishedAt&apiKey=${apiKey}`
       )
       .then((response) => setData(response.data))
       .catch((error) => {
